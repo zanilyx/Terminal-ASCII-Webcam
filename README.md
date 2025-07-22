@@ -24,7 +24,7 @@
 
 1. **Clone the repo:**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/zanilyx/Terminal-ASCII-Webcam.git
    cd ascii_to_camera
    ```
 2. **Create a virtual environment:**
