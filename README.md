@@ -120,7 +120,7 @@ python asciicam.py
 ---
 
 ## 📜 License
-See LICENSE file.
+This project is licensed under the Business Source License 1.1 (BSL-1.1). Personal/non-commercial use is free. Commercial use requires a paid license. See LICENSE for details.
 
 ## 🙏 Credits
 - ASCII art logic: inspired by classic terminal art
