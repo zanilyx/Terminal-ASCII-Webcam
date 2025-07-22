@@ -1,0 +1,6 @@
+# ASCII Camera requirements
+opencv-python>=4.5.0
+colorama>=0.4.6
+numpy>=1.20.0
+# For face detection, opencv-contrib-python can be used as a drop-in replacement
+# Tkinter is included with most Python installations 

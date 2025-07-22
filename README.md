@@ -1,24 +1,26 @@
-# ASCII Camera 🎥
+# 🎨 ASCII Camera 🎥
 
-Turn your webcam into real-time ASCII art in your terminal—with a modern, colorful remote-control GUI for all features!
-
----
-
-## Features
-- **Live ASCII webcam** in your terminal (B&W or color, blazing fast)
-- **Colorful GUI remote** for all controls (Tkinter, cross-platform)
-- **Crop selection** at startup (select any region of your webcam)
-- **Real-time controls**: width, contrast, brightness, palette, color, rainbow, invert, face overlay, FPS
-- **Save ASCII art** to text file or **save webcam image** with one click
-- **Face detection overlay** (toggle on/off)
-- **Multiple ASCII palettes** (classic, blocks, binary, etc.)
-- **Reset controls** to defaults at any time
-- **Help overlay** in GUI
-- **Robust logging** for debugging
+> **Turn your webcam into real-time ASCII art!**
+> 
+> 🖥️ Terminal display + 🕹️ Colorful GUI remote = Maximum fun!
 
 ---
 
-## Installation
+## ✨ Features
+- 🎬 **Live ASCII webcam** in your terminal (B&W or color, blazing fast)
+- 🕹️ **Colorful GUI remote** for all controls (Tkinter, cross-platform)
+- ✂️ **Crop selection** at startup (select any region of your webcam)
+- 🎛️ **Real-time controls**: width, contrast, brightness, palette, color, rainbow, invert, face overlay, FPS
+- 💾 **Save ASCII art** to text file or **save webcam image** with one click
+- 🙂 **Face detection overlay** (toggle on/off)
+- 🔤 **Multiple ASCII palettes** (classic, blocks, binary, etc.)
+- 🔄 **Reset controls** to defaults at any time
+- 🆘 **Help overlay** in GUI
+- 📝 **Robust logging** for debugging
+
+---
+
+## 🚀 Installation
 
 1. **Clone the repo:**
    ```sh
@@ -32,13 +34,13 @@ Turn your webcam into real-time ASCII art in your terminal—with a modern, colo
    ```
 3. **Install requirements:**
    ```sh
-   pip install opencv-python colorama numpy
+   pip install -r requirements.txt
    ```
    (Tkinter is included with most Python installations.)
 
 ---
 
-## Usage
+## 🏁 Usage
 
 ### Terminal + GUI Remote (Recommended)
 ```sh
@@ -55,7 +57,7 @@ python asciicam.py
 
 ---
 
-## Controls & Keybindings
+## 🕹️ Controls & Keybindings
 
 ### GUI Remote Controls
 - **ASCII Width**: Adjust output width
@@ -92,25 +94,23 @@ python asciicam.py
 
 ---
 
-## Cropping & Reset
+## ✂️ Cropping & 🔄 Reset
 - **Crop selection**: At startup, select a region to crop from your webcam (or use full frame).
 - **Reset Controls**: In the GUI, resets all controls to defaults (does not affect crop).
 
 ---
 
-## Example Output
-```
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@%*+=-:.      .:-=+*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@%*+=-:.      .:-=+*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-```
+## 🖼️ Example Outputs
+
+### Classic B&W
+![Classic B&W Example](example_b&w.png)
+
+### Color Mode
+![Color Mode Example](example_colour.png)
 
 ---
 
-## Troubleshooting & FAQ
+## 🛠️ Troubleshooting & FAQ
 - **Webcam not found?** Make sure no other app is using it. Try changing the camera index in the code if you have multiple cameras.
 - **GUI not showing?** Tkinter must be installed (comes with most Python installs).
 - **Color mode slow?** Use a smaller ASCII width, or disable color/rainbow for best performance.
@@ -119,10 +119,10 @@ python asciicam.py
 
 ---
 
-## License
+## 📜 License
 MIT License. See LICENSE file.
 
-## Credits
+## 🙏 Credits
 - ASCII art logic: inspired by classic terminal art
 - GUI: Tkinter
 - Webcam: OpenCV
@@ -131,4 +131,4 @@ MIT License. See LICENSE file.
 
 ---
 
-**Enjoy your ASCII camera!** 
+**Enjoy your ASCII camera!** 😸 
