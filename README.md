@@ -120,7 +120,7 @@ python asciicam.py
 ---
 
 ## 📜 License
-MIT License. See LICENSE file.
+See LICENSE file.
 
 ## 🙏 Credits
 - ASCII art logic: inspired by classic terminal art
